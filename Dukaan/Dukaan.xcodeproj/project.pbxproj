@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71D2090829F1F31300AE6792 /* DukaanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2090729F1F31300AE6792 /* DukaanApp.swift */; };
+		71D2090A29F1F31300AE6792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2090929F1F31300AE6792 /* ContentView.swift */; };
+		71D2090C29F1F31600AE6792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D2090B29F1F31600AE6792 /* Assets.xcassets */; };
+		71D2090F29F1F31600AE6792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D2090E29F1F31600AE6792 /* Preview Assets.xcassets */; };
+		71D2091129F1F31600AE6792 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2091029F1F31600AE6792 /* Persistence.swift */; };
+		71D2091429F1F31600AE6792 /* Dukaan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71D2091229F1F31600AE6792 /* Dukaan.xcdatamodeld */; };
+		71D2091F29F1F31600AE6792 /* DukaanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2091E29F1F31600AE6792 /* DukaanTests.swift */; };
+		71D2092929F1F31600AE6792 /* DukaanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2092829F1F31600AE6792 /* DukaanUITests.swift */; };
+		71D2092B29F1F31600AE6792 /* DukaanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2092A29F1F31600AE6792 /* DukaanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71D2091B29F1F31600AE6792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71D208FC29F1F31300AE6792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D2090329F1F31300AE6792;
+			remoteInfo = Dukaan;
+		};
+		71D2092529F1F31600AE6792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71D208FC29F1F31300AE6792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D2090329F1F31300AE6792;
+			remoteInfo = Dukaan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71D2090429F1F31300AE6792 /* Dukaan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dukaan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D2090729F1F31300AE6792 /* DukaanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukaanApp.swift; sourceTree = "<group>"; };
+		71D2090929F1F31300AE6792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71D2090B29F1F31600AE6792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D2090E29F1F31600AE6792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71D2091029F1F31600AE6792 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		71D2091329F1F31600AE6792 /* Dukaan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dukaan.xcdatamodel; sourceTree = "<group>"; };
+		71D2091529F1F31600AE6792 /* Dukaan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dukaan.entitlements; sourceTree = "<group>"; };
+		71D2091A29F1F31600AE6792 /* DukaanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DukaanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D2091E29F1F31600AE6792 /* DukaanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukaanTests.swift; sourceTree = "<group>"; };
+		71D2092429F1F31600AE6792 /* DukaanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DukaanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D2092829F1F31600AE6792 /* DukaanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukaanUITests.swift; sourceTree = "<group>"; };
+		71D2092A29F1F31600AE6792 /* DukaanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukaanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D2090129F1F31300AE6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2091729F1F31600AE6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2092129F1F31600AE6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D208FB29F1F31300AE6792 = {
+			isa = PBXGroup;
+			children = (
+				71D2090629F1F31300AE6792 /* Dukaan */,
+				71D2091D29F1F31600AE6792 /* DukaanTests */,
+				71D2092729F1F31600AE6792 /* DukaanUITests */,
+				71D2090529F1F31300AE6792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71D2090529F1F31300AE6792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D2090429F1F31300AE6792 /* Dukaan.app */,
+				71D2091A29F1F31600AE6792 /* DukaanTests.xctest */,
+				71D2092429F1F31600AE6792 /* DukaanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D2090629F1F31300AE6792 /* Dukaan */ = {
+			isa = PBXGroup;
+			children = (
+				71D2090729F1F31300AE6792 /* DukaanApp.swift */,
+				71D2090929F1F31300AE6792 /* ContentView.swift */,
+				71D2090B29F1F31600AE6792 /* Assets.xcassets */,
+				71D2091029F1F31600AE6792 /* Persistence.swift */,
+				71D2091529F1F31600AE6792 /* Dukaan.entitlements */,
+				71D2091229F1F31600AE6792 /* Dukaan.xcdatamodeld */,
+				71D2090D29F1F31600AE6792 /* Preview Content */,
+			);
+			path = Dukaan;
+			sourceTree = "<group>";
+		};
+		71D2090D29F1F31600AE6792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71D2090E29F1F31600AE6792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71D2091D29F1F31600AE6792 /* DukaanTests */ = {
+			isa = PBXGroup;
+			children = (
+				71D2091E29F1F31600AE6792 /* DukaanTests.swift */,
+			);
+			path = DukaanTests;
+			sourceTree = "<group>";
+		};
+		71D2092729F1F31600AE6792 /* DukaanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71D2092829F1F31600AE6792 /* DukaanUITests.swift */,
+				71D2092A29F1F31600AE6792 /* DukaanUITestsLaunchTests.swift */,
+			);
+			path = DukaanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D2090329F1F31300AE6792 /* Dukaan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D2092E29F1F31600AE6792 /* Build configuration list for PBXNativeTarget "Dukaan" */;
+			buildPhases = (
+				71D2090029F1F31300AE6792 /* Sources */,
+				71D2090129F1F31300AE6792 /* Frameworks */,
+				71D2090229F1F31300AE6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dukaan;
+			productName = Dukaan;
+			productReference = 71D2090429F1F31300AE6792 /* Dukaan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71D2091929F1F31600AE6792 /* DukaanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D2093129F1F31600AE6792 /* Build configuration list for PBXNativeTarget "DukaanTests" */;
+			buildPhases = (
+				71D2091629F1F31600AE6792 /* Sources */,
+				71D2091729F1F31600AE6792 /* Frameworks */,
+				71D2091829F1F31600AE6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71D2091C29F1F31600AE6792 /* PBXTargetDependency */,
+			);
+			name = DukaanTests;
+			productName = DukaanTests;
+			productReference = 71D2091A29F1F31600AE6792 /* DukaanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71D2092329F1F31600AE6792 /* DukaanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D2093429F1F31600AE6792 /* Build configuration list for PBXNativeTarget "DukaanUITests" */;
+			buildPhases = (
+				71D2092029F1F31600AE6792 /* Sources */,
+				71D2092129F1F31600AE6792 /* Frameworks */,
+				71D2092229F1F31600AE6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71D2092629F1F31600AE6792 /* PBXTargetDependency */,
+			);
+			name = DukaanUITests;
+			productName = DukaanUITests;
+			productReference = 71D2092429F1F31600AE6792 /* DukaanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D208FC29F1F31300AE6792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71D2090329F1F31300AE6792 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					71D2091929F1F31600AE6792 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 71D2090329F1F31300AE6792;
+					};
+					71D2092329F1F31600AE6792 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 71D2090329F1F31300AE6792;
+					};
+				};
+			};
+			buildConfigurationList = 71D208FF29F1F31300AE6792 /* Build configuration list for PBXProject "Dukaan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D208FB29F1F31300AE6792;
+			productRefGroup = 71D2090529F1F31300AE6792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D2090329F1F31300AE6792 /* Dukaan */,
+				71D2091929F1F31600AE6792 /* DukaanTests */,
+				71D2092329F1F31600AE6792 /* DukaanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D2090229F1F31300AE6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D2090F29F1F31600AE6792 /* Preview Assets.xcassets in Resources */,
+				71D2090C29F1F31600AE6792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2091829F1F31600AE6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2092229F1F31600AE6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D2090029F1F31300AE6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D2091129F1F31600AE6792 /* Persistence.swift in Sources */,
+				71D2090A29F1F31300AE6792 /* ContentView.swift in Sources */,
+				71D2090829F1F31300AE6792 /* DukaanApp.swift in Sources */,
+				71D2091429F1F31600AE6792 /* Dukaan.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2091629F1F31600AE6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D2091F29F1F31600AE6792 /* DukaanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D2092029F1F31600AE6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D2092B29F1F31600AE6792 /* DukaanUITestsLaunchTests.swift in Sources */,
+				71D2092929F1F31600AE6792 /* DukaanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71D2091C29F1F31600AE6792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71D2090329F1F31300AE6792 /* Dukaan */;
+			targetProxy = 71D2091B29F1F31600AE6792 /* PBXContainerItemProxy */;
+		};
+		71D2092629F1F31600AE6792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71D2090329F1F31300AE6792 /* Dukaan */;
+			targetProxy = 71D2092529F1F31600AE6792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71D2092C29F1F31600AE6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71D2092D29F1F31600AE6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71D2092F29F1F31600AE6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dukaan/Dukaan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dukaan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.Dukaan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71D2093029F1F31600AE6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dukaan/Dukaan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dukaan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.Dukaan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		71D2093229F1F31600AE6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.DukaanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dukaan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dukaan";
+			};
+			name = Debug;
+		};
+		71D2093329F1F31600AE6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.DukaanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dukaan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dukaan";
+			};
+			name = Release;
+		};
+		71D2093529F1F31600AE6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.DukaanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dukaan;
+			};
+			name = Debug;
+		};
+		71D2093629F1F31600AE6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athakur.DukaanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dukaan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D208FF29F1F31300AE6792 /* Build configuration list for PBXProject "Dukaan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D2092C29F1F31600AE6792 /* Debug */,
+				71D2092D29F1F31600AE6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D2092E29F1F31600AE6792 /* Build configuration list for PBXNativeTarget "Dukaan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D2092F29F1F31600AE6792 /* Debug */,
+				71D2093029F1F31600AE6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D2093129F1F31600AE6792 /* Build configuration list for PBXNativeTarget "DukaanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D2093229F1F31600AE6792 /* Debug */,
+				71D2093329F1F31600AE6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D2093429F1F31600AE6792 /* Build configuration list for PBXNativeTarget "DukaanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D2093529F1F31600AE6792 /* Debug */,
+				71D2093629F1F31600AE6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71D2091229F1F31600AE6792 /* Dukaan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71D2091329F1F31600AE6792 /* Dukaan.xcdatamodel */,
+			);
+			currentVersion = 71D2091329F1F31600AE6792 /* Dukaan.xcdatamodel */;
+			path = Dukaan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71D208FC29F1F31300AE6792 /* Project object */;
+}
