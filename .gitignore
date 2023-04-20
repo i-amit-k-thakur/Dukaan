@@ -1,0 +1,5 @@
+# Ignore all local user files
+*.xcuserstate
+
+# Ignore all mac files
+.DS_store
